@@ -1,4 +1,4 @@
-const StringConverter = artifacts.require("./StringConverter.sol");
+const StringConverter = artifacts.require("./12_string_converter/StringConverter.sol");
 
 module.exports = function(deployer) {
   deployer.deploy(StringConverter);
