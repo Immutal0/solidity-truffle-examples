@@ -1,13 +1,14 @@
 pragma solidity ^0.4.24;
 
 import "truffle/Assert.sol";
-import "../contracts/12_string_converter/StringConverter.sol";
+import "truffle/DeployedAddresses.sol";
+import "../contracts/13_route_manager/RouteManager.sol";
 
-contract StringConverterTest {
-    StringConverter instance;
+contract RouteManagerTest {
+    RouteManager instance;
     
     function testStringToBytes32() public {
-        instance = new StringConverter();
+        instance = new RouteManager();
         
         Assert.equal(
             instance.stringToBytes32("Sample string"), 
