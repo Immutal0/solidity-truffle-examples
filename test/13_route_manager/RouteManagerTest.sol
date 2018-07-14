@@ -21,5 +21,6 @@ contract RouteManagerTest {
         bytes10 longitude = 0x7369656d6b6100000000;
         instance.addStop(id, name, latitude, longitude);
         Assert.equal(instance.getStopCount(), 1, "wrong stops number");
+        Assert.equal(instance.getStopId(0), id, "wrong id");
     }
 }

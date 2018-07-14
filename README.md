@@ -14,6 +14,12 @@ Try to write a contract yourself before checking the code in the repo!
 * create function to convert string to bytes32
 * add Solidity test for that function
 
+### 013_route_manager.sol
+* contract must store a list of bus stops
+* each bus stop has id, name and coordinates (i.e czn1, PKS Cieszyn, 10.123222, 33.212345)
+* owner should be able to add new stops
+* contract must have test coverage
+
 
 ## Like it?
 If you like it please share it with others :)

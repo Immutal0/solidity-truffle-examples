@@ -3,7 +3,6 @@ pragma solidity ^0.4.24;
 contract RouteManager {
     address public owner;  
 
-
     struct Stop {
         bytes4 id;
         bytes32 name;
