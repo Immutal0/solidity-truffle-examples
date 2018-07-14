@@ -21,7 +21,8 @@ contract RouteManager {
         bytes32 _name, 
         bytes10 _latitude, 
         bytes10 _longitude
-    ) public {
+    ) public returns(bool) {
         stops.push(Stop(_id, _name, _latitude, _longitude));    
+        return true;
     }    
 }

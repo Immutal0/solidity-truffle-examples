@@ -1,10 +1,10 @@
 pragma solidity ^0.4.24;
 
 /**
- * @title StringConverter
+ * @title StringConverterLib
  * @dev String convertions to multiple types
  */
-library StringConverter {
+library StringConverterLib {
 
     /**
      * @dev Returns bytes32 representation of a given string
