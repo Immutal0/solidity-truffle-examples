@@ -10,16 +10,21 @@ Try to write a contract yourself before checking the code in the repo!
 
 ## Challenges
 
-### 012_string_converter.sol
+### 012_string_converter
 * create function to convert string to bytes32
 * add Solidity test for that function
 
-### 013_route_manager.sol
+### 013_route_manager
 * contract must store a list of bus stops
 * each bus stop has id, name and coordinates (i.e czn1, PKS Cieszyn, 10.123222, 33.212345)
 * owner should be able to add new stops
 * contract must have test coverage
 
+### 014_crowdsale
+* create mintable coin (use Open Zeppelin)
+* create simple crowdsale (use Open Zeppelin)
+* set opening and closing time
+* set rate and wallet address 
 
 ## Like it?
 If you like it please share it with others :)

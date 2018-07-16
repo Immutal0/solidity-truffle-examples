@@ -6,5 +6,8 @@
   "devDependencies": {
     "solium": "^1.1.8",
     "truffle": "^4.1.13"
+  },
+  "dependencies": {
+    "zeppelin-solidity": "^1.10.0"
   }
 }
