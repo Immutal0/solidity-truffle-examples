@@ -5,9 +5,9 @@ contract RouteManager {
 
     struct Stop {
         bytes4 id;
-        bytes32 name;
         bytes10 latitude;
-        bytes10 longitude;    
+        bytes10 longitude; 
+        bytes32 name;   
     }
 
     Stop[] public stops;
