@@ -20,11 +20,18 @@ Try to write a contract yourself before checking the code in the repo!
 * owner should be able to add new stops
 * contract must have test coverage
 
-### 014_crowdsale
+### 015_crowdsale
 * create mintable coin (use Open Zeppelin)
 * create simple crowdsale (use Open Zeppelin)
 * set opening and closing time
 * set rate and wallet address 
+
+### 017_roles_management
+* create contract which inherites from Ownable (Open Zeppelin)
+* contract must have a list of managers
+* owner can add/update/remove manager
+* owner is a manager too
+* add modifier onlyManager
 
 ## Like it?
 If you like it please share it with others :)
