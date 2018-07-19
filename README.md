@@ -33,7 +33,7 @@ Try to write a contract yourself before checking the code in the repo!
 * owner is a manager too
 * add modifier onlyManager
 
-### 018_the_dao_attack
+### 019_the_dao_attack
 * add very simplified The DAO contract (deposit, withdraw)
 * add attacker contract
 
