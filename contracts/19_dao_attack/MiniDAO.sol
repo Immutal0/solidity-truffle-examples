@@ -9,7 +9,7 @@ contract MiniDAO {
 
     function withdraw(uint _amount) public {
         require(balances[msg.sender] >= _amount);
-        msg.sender.transfer(_amount);
+        msg.sender.call.value(amount)();
         balances[msg.sender] -= _amount;
     }
 }

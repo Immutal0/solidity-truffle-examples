@@ -10,30 +10,42 @@ Try to write a contract yourself before checking the code in the repo!
 
 ## Challenges
 
-### 012_string_converter
+### 12_string_converter
 * create function to convert string to bytes32
 * add Solidity test for that function
 
-### 013_route_manager
+### 13_route_manager
 * contract must store a list of bus stops
 * each bus stop has id, name and coordinates (i.e czn1, PKS Cieszyn, 10.123222, 33.212345)
 * owner should be able to add new stops
 * contract must have test coverage
 
-### 015_crowdsale
+### 14_testing_route_manager
+* add Solidity tests
+* add JavaScript tests
+
+### 15_crowdsale
 * create mintable coin (use Open Zeppelin)
 * create simple crowdsale (use Open Zeppelin)
 * set opening and closing time
 * set rate and wallet address 
 
-### 017_roles_management
+### 16_testing_crowdsale
+* add Solidity tests
+* add JavaScript tests
+
+### 17_roles_management
 * create contract which inherites from Ownable (Open Zeppelin)
 * contract must have a list of managers
 * owner can add/update/remove manager
 * owner is a manager too
 * add modifier onlyManager
 
-### 019_the_dao_attack
+### 18_roles_management
+* add Solidity tests
+* add JavaScript tests
+
+### 19_the_dao_attack
 * add very simplified The DAO contract (deposit, withdraw)
 * add attacker contract
 
