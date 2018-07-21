@@ -49,6 +49,9 @@ Try to write a contract yourself before checking the code in the repo!
 * add very simplified The DAO contract (deposit, withdraw)
 * add attacker contract
 
+### 20_lpg_price
+* get LPG price from oracle
+
 ## Like it?
 If you like it please share it with others :)
 
