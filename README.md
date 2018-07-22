@@ -50,7 +50,10 @@ Try to write a contract yourself before checking the code in the repo!
 * add attacker contract
 
 ### 20_lpg_price
-* get LPG price from oracle
+* get LPG price using Oraclize API
+
+### 21_random_oraclize
+* get random number using Oraclize API
 
 ## Like it?
 If you like it please share it with others :)
