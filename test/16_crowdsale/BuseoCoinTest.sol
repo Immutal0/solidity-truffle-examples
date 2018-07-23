@@ -16,7 +16,15 @@ contract BuseoCoinTest {
     }
 
     function testConstructor() public {
-        uint allocatedTokens = buseoCoin.balanceOf(this);
-        Assert.equal(allocatedTokens, 1000, "Contract creator should have 1000 tokens");
+        uint initialTokens = buseoCoin.balanceOf(this);
+        Assert.equal(initialTokens, 0, "Contract creator should have 0 tokens");
+    }
+
+    function testName() public {
+        Assert.equal(buseoCoin.name(), "Buseo Coin", "Wrong token name");
+    }
+
+    function testSymbol() public {
+        Assert.equal(buseoCoin.symbol(), "BUSC", "Wrong token symbol");
     }
 }
