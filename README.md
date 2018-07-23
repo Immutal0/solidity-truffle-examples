@@ -41,7 +41,7 @@ Try to write a contract yourself before checking the code in the repo!
 * owner is a manager too
 * add modifier onlyManager
 
-### 18_roles_management
+### 18_testing_roles_management
 * add Solidity tests
 * add JavaScript tests
 
