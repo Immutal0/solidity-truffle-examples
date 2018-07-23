@@ -55,6 +55,11 @@ Try to write a contract yourself before checking the code in the repo!
 ### 21_random_oraclize
 * get random number using Oraclize API
 
+### 22_raffle_oraclize
+* users can join raffle once
+* owner can't participate
+* winner is picked using RNG from Oraclize
+
 ## Like it?
 If you like it please share it with others :)
 
