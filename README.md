@@ -60,6 +60,11 @@ Try to write a contract yourself before checking the code in the repo!
 * owner can't participate
 * winner is picked using RNG from Oraclize
 
+### 23_ipfs_oraclize
+* add a simple json file to ipfs (publicly accessible gateway)
+* use oraclize to read that file
+* store the result of one json attribute in a string variable
+
 ## Like it?
 If you like it please share it with others :)
 
