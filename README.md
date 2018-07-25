@@ -65,6 +65,14 @@ Try to write a contract yourself before checking the code in the repo!
 * use oraclize to read that file
 * store the result of one json attribute in a string variable
 
+### 24_election
+* create one contract per election, providing a short name and address for each candidate. 
+* creator of the contract gives the right to vote to each address individually
+* each voter can vote once
+* voter can not vote on himself
+
+At the end of the voting time, winningProposal() will return the proposal with the largest number of votes.
+
 ## Like it?
 If you like it please share it with others :)
 
