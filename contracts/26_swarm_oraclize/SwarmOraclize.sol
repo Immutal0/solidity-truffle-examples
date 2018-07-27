@@ -1,3 +1,7 @@
+/*
+  Swarm installation: https://swarm-guide.readthedocs.io/en/latest/installation.html#installing-swarm-from-a-package-manager
+  Swarm upload to the public gateway: https://swarm-guide.readthedocs.io/en/latest/up-and-download.html#uploading-to-a-remote-swarm-node  
+*/
 pragma solidity ^0.4.24;
 
 import "../utils/usingOraclize.sol";
