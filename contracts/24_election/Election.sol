@@ -30,7 +30,7 @@ contract Election {
     Candidate[] public candidates;
 
     /// Create a new election to choose one of `candidateNames`.
-    constructor(bytes32[] candidateNames) public {
+    constructor(bytes32[] candidateNames, address[] candidateAddresses) public {
         chairperson = msg.sender;
         voters[chairperson].weight = 1;
 
@@ -43,6 +43,7 @@ contract Election {
             // appends it to the end of `candidates`.
             candidates.push(Candidate({
                 name: candidateNames[i],
+                candidateAddress: candidateAddresses[i],
                 voteCount: 0
             }));
         }
@@ -76,7 +77,7 @@ contract Election {
     function vote(uint candidate) public {
         Voter storage sender = voters[msg.sender];
         require(!sender.voted, "Already voted.");
-        require(msg.sender != candidates[uint].candidateAddress, "Can't vote on yourself")
+        require(msg.sender != candidates[candidate].candidateAddress, "Can't vote on yourself");
         sender.voted = true;
         sender.vote = candidate;
 
@@ -86,9 +87,11 @@ contract Election {
         candidates[candidate].voteCount += sender.weight;
     }
 
-    function winningCandidate() public view
-            returns (uint winningCandidate_)
-    {
+    function getVoteCount(uint candidateIndex) public view returns(uint) {
+        return candidates[candidateIndex].voteCount;
+    }
+
+    function winningCandidate() public view returns (uint winningCandidate_) {
         uint winningVoteCount = 0;
         for (uint p = 0; p < candidates.length; p++) {
             if (candidates[p].voteCount > winningVoteCount) {

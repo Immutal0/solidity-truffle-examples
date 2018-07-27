@@ -4,7 +4,7 @@
 */
 pragma solidity ^0.4.24;
 
-import "github.com/oraclize/ethereum-api/oraclizeAPI.sol";
+import "../utils/usingOraclize.sol";
 
 contract Raffle is usingOraclize {
     uint8 minParticipants = 2;
