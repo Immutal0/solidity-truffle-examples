@@ -7,6 +7,11 @@ contract Adoption {
     and only single value can be returned in such getter
     */
     address[16] public adopters; 
+    address owner;
+
+    constructor() public {
+        owner = msg.sender;
+    }
 
     function adopt(uint petId) public returns (uint) {
         require(petId >= 0 && petId <= 15, "Wrong pet ID");
@@ -19,7 +24,7 @@ contract Adoption {
     }
 
     function cancelAdoption(uint petId) public {
-        require(adopters[petId] == msg.sender);
+        require(owner == msg.sender, "must be owner");
         adopters[petId] = 0x0;
     }
 }

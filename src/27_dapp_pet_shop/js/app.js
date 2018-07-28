@@ -55,10 +55,6 @@ App = {
     $(document).on('click', '.btn-adopt', App.handleAdopt);
   },
 
-  bindEvents: function() {
-    $(document).on('click', '.btn-cancel', App.handleCancel);
-  },
-
   markAdopted: function(adopters, account) {
     var adoptionInstance;
 
@@ -102,35 +98,7 @@ App = {
         console.log(err.message);
       });
     });
-  },
-
-  handleCancel: function(event) {
-    event.preventDefault();
-
-    var petId = parseInt($(event.target).data('id'));
-
-    var adoptionInstance;
-
-    web3.eth.getAccounts(function(error, accounts) {
-      if (error) {
-        console.log(error);
-      }
-
-      var account = accounts[0];
-
-      App.contracts.Adoption.deployed().then(function(instance) {
-        adoptionInstance = instance;
-
-        // Execute adopt as a transaction by sending account
-        return adoptionInstance.cancel(petId, {from: account});
-      }).then(function(result) {
-        console.log("Cancel: ", result);
-      }).catch(function(err) {
-        console.log(err.message);
-      });
-    });
   }
-
 };
 
 $(function() {
