@@ -80,6 +80,12 @@ At the end of the voting time, winningProposal() will return the proposal with t
 * add text file to Swarm public gateway (https://swarm-gateways.net)
 * read that file in the contract through Oraclize API
 
+### 27_dapp_pet_shop
+* build dapp based on https://truffleframework.com/tutorials/pet-shop
+* add test for cancelling adoption (TDD)
+* add cancel adoption function to the smart contract
+* add cancel button to UI
+
 ## Like it?
 If you like it please share it with others :)
 

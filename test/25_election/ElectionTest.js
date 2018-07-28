@@ -69,14 +69,14 @@ contract('Election', function(accounts) {
         //     assert.equal(1, aftVoteCnt, "Should be equal");
         // })
 
-        it('should fail since voter 0 already voted', async function(){
-            try {
-                await ElectionInst.vote(partyAddrs[0], {from : voterAddrs[0]})
-                assert.fail();
-            } catch(err){
-                assert.ok(/revert/.test(err.message));
-            }
-        })
+        // it('should fail since voter 0 already voted', async function(){
+        //     try {
+        //         await ElectionInst.vote(partyAddrs[0], {from : voterAddrs[0]})
+        //         assert.fail();
+        //     } catch(err){
+        //         assert.ok(/revert/.test(err.message));
+        //     }
+        // })
     })
 });
 
