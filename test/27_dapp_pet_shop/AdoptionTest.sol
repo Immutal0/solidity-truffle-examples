@@ -32,5 +32,4 @@ contract AdoptionTest {
         adoption.cancelAdoption(10);
         Assert.equal(adoption.adopters(10), 0x0, "Must be empty again");
     }
-
 }
