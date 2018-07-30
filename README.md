@@ -86,6 +86,14 @@ At the end of the voting time, winningProposal() will return the proposal with t
 * write a test for cancelling adoption (TDD)
 * add cancelling function to the smart contract
 
+### 28_infura_deployment
+* add settings for ropsten deployment using infura
+
+### 29_tic_tac_toe
+* add basic tic tac toe for 2 players
+* 3x3 board
+* no AI
+
 ## Like it?
 If you like it please share it with others :)
 
