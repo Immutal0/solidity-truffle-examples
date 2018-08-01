@@ -94,6 +94,10 @@ At the end of the voting time, winningProposal() will return the proposal with t
 * 3x3 board
 * no AI
 
+## Other challenges
+* [Plain Solidity: 1-12](https://github.com/pbrudny/learning-solidity-2018)
+* [Web3 deploy challenge: 30](https://github.com/pbrudny/web3-deploy-example)
+
 ## Like it?
 If you like it please share it with others :)
 
