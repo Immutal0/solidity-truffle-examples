@@ -71,10 +71,10 @@ Try to write a contract yourself before checking the code in the repo!
 * each voter can vote once
 * voter can not vote on himself
 
-### 25_testing_election
-* add JavaScript tests
-
-At the end of the voting time, winningProposal() will return the proposal with the largest number of votes.
+### 25_faucet
+* add fallback to accept the payment
+* add withdraw method which allows anyone to get maximum 1 ether
+* log both amounts (paid, transferred) using events
 
 ### 26_swarm_oraclize
 * add text file to Swarm public gateway (https://swarm-gateways.net)
