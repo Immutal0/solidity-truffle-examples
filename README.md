@@ -20,19 +20,19 @@ Try to write a contract yourself before checking the code in the repo!
 * owner should be able to add new stops
 * contract must have test coverage
 
-### 14_testing_route_manager
-* add Solidity tests
-* add JavaScript tests
+### 14_shared_wallet
+* contract has one owner
+* owner can add and remove managers
+* manager can withdraw all the funds
+* contract has a payable fallback function to receive transfers
 
-### 15_crowdsale
+### 15_multig_wallet
+
+### 16_crowdsale
 * create mintable coin (use Open Zeppelin)
 * create simple crowdsale (use Open Zeppelin)
 * set opening and closing time
-* set rate and wallet address 
-
-### 16_testing_crowdsale
-* add Solidity tests
-* add JavaScript tests
+* set rate and wallet address
 
 ### 17_roles_management
 * create contract which inherites from Ownable (Open Zeppelin)
