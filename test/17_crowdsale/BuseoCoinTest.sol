@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 
 import "truffle/Assert.sol";
-import "../../contracts/15_crowdsale/BuseoCoin.sol";
+import "../../contracts/17_crowdsale/BuseoCoin.sol";
 
 contract BuseoCoinTest {
     BuseoCoin private buseoCoin;

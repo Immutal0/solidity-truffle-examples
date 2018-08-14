@@ -1,5 +1,5 @@
-const BuseoCoin = artifacts.require("./15_crowdsale/BuseoCoin.sol");
-const BuseoCrowdsale = artifacts.require("./15_crowdsale/BuseoCrowdsale.sol");
+const BuseoCoin = artifacts.require("./17_crowdsale/BuseoCoin.sol");
+const BuseoCrowdsale = artifacts.require("./17_crowdsale/BuseoCrowdsale.sol");
 
 module.exports = function(deployer, network, accounts) {
   const openingTime = web3.eth.getBlock('latest').timestamp + 2; // two secs in the future

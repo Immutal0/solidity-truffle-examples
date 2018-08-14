@@ -20,30 +20,32 @@ Try to write a contract yourself before checking the code in the repo!
 * owner should be able to add new stops
 * contract must have test coverage
 
-### 14_shared_wallet
+### 14_route_manager_test
+* add Solidity tests
+* add JavaScript tests
+
+### 15_shared_wallet
 * contract has one owner
 * owner can add and remove managers
 * manager can withdraw all the funds
 * contract has a payable fallback function to receive transfers
 
-### 15_multig_wallet
+### 16_multisig_wallet
+* create a multi signature wallet
+* transfers can only be done when 3 managers sign the transaction 
 
-### 16_crowdsale
+### 17_crowdsale
 * create mintable coin (use Open Zeppelin)
 * create simple crowdsale (use Open Zeppelin)
 * set opening and closing time
 * set rate and wallet address
 
-### 17_roles_management
+### 18_roles_management
 * create contract which inherites from Ownable (Open Zeppelin)
 * contract must have a list of managers
 * owner can add/update/remove manager
 * owner is a manager too
 * add modifier onlyManager
-
-### 18_testing_roles_management
-* add Solidity tests
-* add JavaScript tests
 
 ### 19_the_dao_attack
 * add very simplified The DAO contract (deposit, withdraw)
