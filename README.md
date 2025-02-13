@@ -114,4 +114,4 @@ If you find this repository helpful, please share it with others who may benefit
 For any questions or feedback, feel free to reach out:
 
 - **Telegram**: [@Immutal0](https://t.me/Immutal0)
-- **Twitter**: [@Immutal0](https://x.com/Immutal0)
+- **Twitter**: [@Immutal0_](https://x.com/Immutal0_)
